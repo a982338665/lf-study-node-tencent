@@ -1,6 +1,7 @@
 # node-tencent
 # node文档:nodejs.cn/api/
-
+# 素材库：http://www.17sucai.com/category/1
+# http://www.nipic.com/show/25068125.html
 **0.开发人员必知的5种开源协议(BSD,Apache,GPL,LGPL,MIT)：**
     
     BSD:可二次开发可商用，公司首选 
@@ -130,5 +131,27 @@
             
 **15.网络路径与http模块:**
 
+    1.url:全球统一资源定位符 - 网址
+        协议://用户名:密码@主机名.名.域:端口号/path/文件名.拓展名?参数名1= &参数名2= #hash
+        协议：http https ftp 等
+    2.nodejs提供了两套解析url的api：
+        old:
+        new: WHATWG URL标准
+    3.http协议:
+        网络数据传输的一种规则
+    4.软件开发模式：
+        ·单机模式：word，单机游戏等
+        ·C/S:客户端-服务端，先安装后使用 qq,wx等
+        ·B/S:浏览器-服务端，打开浏览器网址直接使用
+    5.http通信原理：
+        
+**16.Iaas,Paas,Saas的区别:**
+
+    ·IaaS（Infrastructure as a Service）基础设施即服务:提供的就是服务器，用户可以自行在服务器安装配置各种软件环境 阿里云应是属于IaaS，支持所有
+    ·PaaS（Platform as a Service）平台即服务：提供了用户可以访问的完整或部分的应用程序开发 新浪云、百度云与百度开放云平台则属于PaaS,仅支持PHP、Java、Python语言
+    ·SaaS（Software as a Service）软件即服务：提供了完整的可直接使用的应用程序
+        
+**17.网络爬虫：按照一定规则，从互联网抓取信息的程序**
+    
     
     
