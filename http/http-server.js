@@ -30,10 +30,10 @@ http.createServer((req,res)=>{
 
     var obj = util.inspect(objuri);
     res.end("\n"+obj)
-}).listen(8888);
-
+}).listen(8888,() => {
 //启动 终端打印信息
-console.log('Server running at http://localhost:8888/');
+    console.log('Server running at http://localhost:8888/');
+});
 
 /*!
     访问：http://localhost:8888/path/xxx?a=1&b=2
