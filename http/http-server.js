@@ -14,7 +14,10 @@ var util = require('util');
 http.createServer((req,res)=>{
     // 'Access-Control-Allow-Origin':'xxx' 跨域配置，仅允许该[xxx]网址访问
     res.writeHead(200,{
-        'Content-Type':'text/plain;charset=utf8',
+        'Content-Type':'text/plain;charset=utf8',//MIME类型：文本
+        // 'Content-Type':'text/html',//
+        // 'Content-Type':'image/png',//MIME类型：打开图片
+        // 'Content-Type':'application/x-gzip',//MIME类型：生成一个压缩包浏览器自动下载
         'Access-Control-Allow-Origin':'*'
     });
     //url对象解析
