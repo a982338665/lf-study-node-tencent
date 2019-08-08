@@ -158,7 +158,11 @@
     netstat -a  查询端口占用
     netstat -ab 查询端口占用（管理员运行）
     
-**19.**
+**19.express框架:**
+
+    1.express:基于nodejs的web开发框架
+    2.核心：中间件，路由，HTML渲染
+    
     
     
     
